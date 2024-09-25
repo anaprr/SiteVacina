@@ -1,54 +1,31 @@
 
-.caixa{
-    background-color: #40C2ED;
-    width: 800px;
-    height: 420px;
-    border-radius: 20px;
-    margin: 0;
-    padding: 0;
-    margin-left: 250px;
-}
-.caixa2{
-    background-color: #ffffff;
-    margin: 10px;
-    position: absolute;
-    width: 780px;
-   height: 400px;
-    text-align: center;
-    border-color: black;
-    border-radius: 20px;
-}
-.caixona{
-    margin-top: 180px;
-    margin-left: 120px;
-}
-.caixatexto{
-    display: block;
-    margin-top: 80px;
-}
 body {
     height: 100%;
     width: 100%;
     background-color: #ffffff;
    
 } 
+@font-face {
+  font-family: "fonte";
+  src: url("fonts/ChampieTrial-Bold.ttf");
+}
 html, body, nav, ul, li, a{
     padding: 0;
     margin: 0;
     border: none;
     background-color: #ffffff;
+    font-family: "fonte";
 }
 
 .menu {
     width: 100%;
     height: 80px;
-    position: fixed;
     top: 0;
     left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #40C2ED; /* add a background color to the menu */
+   
   }
   
   .logo {
@@ -61,34 +38,95 @@ html, body, nav, ul, li, a{
     height: 130px;
     width: 130px;
   }
-.Titulo{
-    color: #7ACBFF;
-}
 
-.menu {
-    display: flex;
-    align-items: center;
-    height: 100px;
-    width: 100%;
-  }
-  
+.text{
+  color: #36B0FF;
+}
 .logo {
     margin: 0 auto;
-    margin-left: 45%;
+    margin-left: 0;
   }
   
   .botao {
     margin-left: auto;
     margin-right: 10px;
+    
   }
   
   .botao span {
-    background-color: #007bff; 
+    background-color: #7ACBFF;
     color: #ffffff; 
     padding: 10px 20px;
     border-radius: 5px;
   }
   
   .botao span:hover {
-    background-color: #0069d9; 
+    background-color: #7ACBFF;
   }
+  .fundo{
+    width: 100%;
+    height: 100%;
+  }
+  .vacinas{
+    border-radius: 100%;
+    width: 20%;
+    height: 40%;
+    
+  }
+  .caixa-vacina{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  .textovacina{
+    margin-top: 50px;
+    margin-left: 90px;
+}
+  
+  .info{
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+    color: black;
+    background-color: #7ACBFF;
+    height: 20%;
+  }
+  .medico{
+    margin-left: 60%;
+    
+  }
+  .textomedico{
+    width: 30%;
+    margin-top: -23%;
+    margin-left: 15%;
+  }
+
+  .sobre{
+    padding: 100px;
+    display: flex;
+  }
+.caderneta{
+  border-radius: 30px;
+}
+.textocaderneta{
+  text-align: center;
+  width: 40%;
+  margin-left: 150px;
+  margin-top: 5%;
+}
+
+.botaocader{
+  background-color: #7ACBFF;
+  color: black; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 13%;
+  height: 40%;
+  margin-left: 40%;
+  text-align: center;
+}
+
+
+  
+ 
